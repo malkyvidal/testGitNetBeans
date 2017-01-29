@@ -10,5 +10,14 @@ package org.packt.Spring.chapter7.springmvc.controller;
  * @author malky
  */
 public class TestGit {
+    String testUNo;
+
+    public String getTestUNo() {
+        return testUNo;
+    }
+
+    public void setTestUNo(String testUNo) {
+        this.testUNo = testUNo;
+    }
     
 }
