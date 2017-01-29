@@ -11,6 +11,7 @@ package org.packt.Spring.chapter7.springmvc.controller;
  */
 public class TestGit {
     String testUNo;
+    String testDos;
 
     public String getTestUNo() {
         return testUNo;
@@ -19,5 +20,14 @@ public class TestGit {
     public void setTestUNo(String testUNo) {
         this.testUNo = testUNo;
     }
+
+    public void setTestDos(String testDos) {
+        this.testDos = testDos;
+    }
+
+    public String getTestDos() {
+        return testDos;
+    }
+    
     
 }
