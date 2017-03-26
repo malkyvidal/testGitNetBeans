@@ -12,6 +12,15 @@ package org.packt.Spring.chapter7.springmvc.controller;
 public class TestGit {
     String testUNo;
     String testDos;
+    String testTres;
+
+    public String getTestTres() {
+        return testTres;
+    }
+
+    public void setTestTres(String testTres) {
+        this.testTres = testTres;
+    }
 
     public String getTestUNo() {
         return testUNo;
